@@ -1,0 +1,126 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Arial';
+}
+div{
+	
+}
+#header{
+	width:100%;
+	height:50px;
+}
+#center{
+
+}
+#loginpart{
+	width:400px;
+	height:100px;
+	margin:40px auto;
+}
+#googlebutton{
+	text-align: center;
+	position:static;
+	cursor:pointer;
+}
+.link{
+    color:blue;
+    text-decoration: none;
+}
+.boxes{
+	width:100%;
+	padding:10px 0;
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,0.4);
+}
+.parts{
+	margin:16px 0;
+}
+.textspace{
+	margin:5px 0;
+}
+#hline{
+	width:100%;
+	padding:10px 0;
+}
+#googletext{
+	
+}
+#emailbox:focus{
+	border:1px solid rgba(0,0,0,0.4);
+	outline: none;
+}
+#googletext::before{
+	content: url('g4.png');
+	margin:0 4px;
+	display: inline;
+	vertical-align: middle;
+}
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .4;
+  &:before {
+    content: '';
+    background-color: black;
+    position: absolute;
+    opacity: .4;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 35px;
+    line-height: 1.5em;
+    cursor:pointer;
+    color: black;
+    background-color: #fcfcfa;
+  }
+}
+.inputlar{
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;        
+}
+#forgot{
+	float:right;
+}
+#sendbutton{
+	background-color: rgb(62,56,245);
+	cursor:pointer;
+	color:white;
+}
+#createaccount{
+	text-align: center;
+}
+#passwordtext{
+	width:100%;
+	border:none;
+	outline:none;
+}
+#passwordtextdiv{
+	width:100%;
+	padding:0 0 0 15px;
+}
+#eyeslashdiv{
+	display:block;
+	cursor:pointer;
+	opacity:.4;
+	margin:0 10px 0 20px;
+	float:right;
+}
+#passwordbox{
+	display:flex;
+}
