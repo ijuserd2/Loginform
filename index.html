@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" 
@@ -12,7 +13,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <div id="wrapper">
         <div id="headerwrapper">
             <div id="header"></div>
-            <hr style="opacity: .4;">
+            <hr style="opacity: .4; width:100%">
         </div>
     </div>
     <div id="centerwrapper">
@@ -25,7 +26,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                     <span>Hi, Welcome back &#128075;</span>
                 </div>
                 <div id="googlebutton" class="boxes parts">
-                    <span id="googletext">Login with Google</span>
+                    <span id="googletext"><i id="googleicon" class="fa-brands fa-google"></i>Login with Google</span>
                 </div>
                 <div id="hline" class="parts">
                     <hr class="hr-text" data-content="or Login with Email">
@@ -34,20 +35,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                 <div id="loginform">
                     <form>
                         <div id="email" class="parts">
-                            <div class="textspace"><label for="email">Email</label></div>
+                            <div class="textspace"><label for="emailbox">Email</label></div>
                             <input id="emailbox" class="inputlar boxes" type="email" name="email" placeholder="E.g. johndoe@email.com">
                             <div id="uyari"></div>
                         </div>
                         <div id="password" class="parts">
-                            <div class="textspace"><label for="pass">Password</label></div>
+                            <div class="textspace"><label for="passwordtext">Password</label></div>
                             <div id="passwordbox" class="boxes">
                                 <div id="passwordtextdiv"><input id="passwordtext" type="password" name="pass" placeholder="Enter your password"></div>     
                                 <div id="eyeslashdiv"><i class="far fa-eye-slash" id="eyeslash"></i></div>
                             </div>        
                         </div>
-                        <div id="" class="parts">
-                            <input type="checkbox" name="checkbox">
-                            <label for="checkbox">Remember Me</label>
+                        <div class="parts">
+                            <input type="checkbox" id="cboxid" name="cbox">
+                            <label for="cboxid">Remember Me</label>
                             <span id="forgot"><a href="" class="link">Forgot your password</a></span>
                         </div>
                         <div id="send">
