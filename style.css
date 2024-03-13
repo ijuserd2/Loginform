@@ -6,17 +6,23 @@
 div{
 	
 }
+html, body{
+	width:100%;
+	height:100%;
+}
 #header{
 	width:100%;
 	height:50px;
 }
-#center{
+#centerwrapper{
 
 }
-#loginpart{
-	width:400px;
-	height:100px;
+#center{
+  	width:400px;
 	margin:40px auto;
+}
+#loginpart{
+	margin:20px 20px;
 }
 #googlebutton{
 	text-align: center;
@@ -31,7 +37,7 @@ div{
 	width:100%;
 	padding:10px 0;
 	border-radius:5px;
-	border:1px solid rgba(0,0,0,0.4);
+	border:1px solid rgba(0,0,0,0.2);
 }
 .parts{
 	margin:16px 0;
@@ -47,14 +53,14 @@ div{
 	
 }
 #emailbox:focus{
-	border:1px solid rgba(0,0,0,0.4);
+	border:1px solid rgba(0,0,0,0.2);
 	outline: none;
 }
-#googletext::before{
-	content: url('g4.png');
-	margin:0 4px;
-	display: inline;
+#googletext{
 	vertical-align: middle;
+}
+#googleicon{
+	margin:0 5px;
 }
 .hr-text {
   line-height: 1em;
@@ -99,6 +105,7 @@ div{
 }
 #sendbutton{
 	background-color: rgb(62,56,245);
+	padding:15px 0 !important;
 	cursor:pointer;
 	color:white;
 }
@@ -123,4 +130,15 @@ div{
 }
 #passwordbox{
 	display:flex;
+}
+
+
+@media (max-width:400px){
+
+	body{
+		
+	}
+	#center{
+  		width:100%;
+	}
 }
